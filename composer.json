@@ -1,0 +1,24 @@
+{
+    "name": "quadrogod/parser",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Alex Molchanov",
+            "email": "admin@tech-con.kz"
+        }
+    ],
+    "require": {
+        "php" : ">=5.6.0",
+        "guzzlehttp/guzzle": "^6.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quadrogod\\Parser\\": "src/"
+        }
+    }
+}
